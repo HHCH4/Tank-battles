@@ -1,0 +1,31 @@
+#第一关的关卡信息 ，关卡信息不能用空格隔开
+
+#敌人数量
+enemyCount=50
+#敌人坦克类型多个类型使用逗号隔开
+enemyType=0,1
+#地图生成的方式通过调用何种方法生成
+method=addRect
+#该方法调用几次
+invokeCount=4
+#方法调用的4次提供的参数
+	/**
+	 * 对指定的矩形区域添加元素块
+	 * 
+	 * @param startX 添加地图块的起始的x坐标
+	 * @param startY 添加地图块的起始的y坐标
+	 * @param endX   结束的x坐标
+	 * @param endY   结束的y坐标
+	 * @param type   地图块的类型
+	 * @param DIS    地图块的间隔 如果是块的宽度，这是连续的
+	 */
+#int startX, int startY, int endX, int endY, int type, final int DIS
+#0，从地图的左上角开始,0代表边界，大于0的值都是地图元素块的宽的倍数
+#public static final int TYPE_NORMAL = 0;
+#public static final int TYPE_HOUSE = 1;  //不可用此方块
+#public static final int TYPE_COVER = 2;
+#public static final int TYPE_HARD = 3;
+param1=1,0,0,0,3,0
+param2=2,1,0,0,2,0
+param3=3,2,0,0,3,0
+param4=4,3,0,0,3,0

@@ -1,0 +1,8 @@
+enemyCount=1
+enemyType=0,1
+method=addRow
+invokeCount=4
+param1=0,0,0,2,0
+param2=0,2,0,0,0
+param3=0,3,0,2,0
+param4=0,4,0,0,0
